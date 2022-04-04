@@ -1,10 +1,20 @@
 import React from "react";
 import { Form,Button,Card, Container } from "react-bootstrap";
 import {useRef} from "react"
-import  Image  from "/Users/yaoqiangwu/Desktop/mcgill-socs-website/src/martlet3_single-noback.png";
+import  Image  from "/Users/linda/Desktop/comp307finalproject/src/martlet3_single-noback.png";
 export default function Signup(){
-    const emailRef = useRef()
+
+    const usernameRef = useRef()
     const passwordRef = useRef()
+
+    function authenticate(){
+        //write your function here!
+        const username = usernameRef.current.value
+        const password = usernameRef.current.value
+
+        window.alert('Hi')
+
+    }
     return (
         <>
         <Container>
@@ -13,19 +23,19 @@ export default function Signup(){
             <img src={Image} height={100} width={100} className="rounded mx-auto d-block"/>
             <h2 className="text-center mb-4">TA Management System</h2>
             <Form>
-                <Form.Group id='email'>
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control type='email' ref={emailRef} required/>
+                <Form.Group id='username'>
+                    <Form.Label>Username</Form.Label>
+                    <Form.Control type='username' ref={usernameRef} required/>
                 </Form.Group>
                 <Form.Group id='password'>
                     <Form.Label>Password</Form.Label>
                     <Form.Control type='password' ref={passwordRef} required/>
                 </Form.Group>
-                
-                
             </Form>
-            <Button variant="danger"className='w-100'type="submit">LOGIN</Button>
+            <Button onclick = {authenticate} variant="danger"className='w-100'type="submit">LOGIN</Button>
             </Card.Body>
+
+            
             <div>
             {' '}
             </div>
@@ -34,8 +44,6 @@ export default function Signup(){
             </div>
         </Card>
         </Container>
-        
-       
 
         </>
     )
