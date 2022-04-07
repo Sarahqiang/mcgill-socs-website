@@ -1,0 +1,386 @@
+.dashboard_title
+{
+    position: absolute;
+    width: 368px;
+    height: 81px;
+    left: 35%;
+    top: 198px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 24px;
+    /* or 38% */
+
+
+    color: #1D242E;
+    
+}
+
+.select
+{
+    position: absolute;
+    left: 42%;
+    /* right: 37.12%; */
+    top: 250px;
+    /* bottom: 68.55%; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 48px;
+
+    color: #1D242E;
+}
+
+.button_rate_ta
+{
+    position: absolute;
+    width: 311.25px;
+    height: 183.52px;
+    left: 38%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.green_color_bar
+{
+    position: absolute;
+    width: 311.25px;
+    height: 20px;
+    left: 38%;
+    top: 483px;
+
+    background: #01A768;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.blue_color_bar
+{
+    position: absolute;
+    width: 311.25px;
+    height: 20px;
+    left: 51%;
+    top: 483px;
+
+    background: #03A9F5;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.text_in_button
+{
+    position: absolute;
+    width: 140.94px;
+    height: 32.3px;
+    left: 854.15px;
+    top: 514.62px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 22px;
+    /* or 79% */
+
+    text-align: center;
+
+    color: red;
+}
+
+.button_rate_ta2
+{
+    position: absolute;
+    width: 311.25px;
+    height: 183.52px;
+    left: 23%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+
+.button_manage_ta2
+{
+    position: absolute;
+    width: 311.25px;
+    height: 183.52px;
+    left: 51%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.green_color_bar2
+{
+    position: absolute;
+    width: 311.25px;
+    height: 20px;
+    left: 23%;
+    top: 483px;
+
+    background: #01A768;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.blue_color_bar2
+{
+    position: absolute;
+    width: 311.25px;
+    height: 20px;
+    left: 51%;
+    top: 483px;
+
+    background: #03A9F5;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.button_rate_ta3
+{
+    position: absolute;
+    width: 311.25px;
+    height: 183.52px;
+    left: 10%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.button_manage_ta2
+{
+    position: absolute;
+    width: 311.25px;
+    height: 183.52px;
+    left: 51%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.green_color_bar3
+{
+    position: absolute;
+    width: 311.25px;
+    height: 20px;
+    left: 10%;
+    top: 483px;
+
+    background: #01A768;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.button_manage_ta3
+{
+    position: absolute;
+    width: 311.25px;
+    height: 183.52px;
+    left: 38%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.blue_color_bar3
+{
+    position: absolute;
+    width: 311.25px;
+    height: 20px;
+    left: 38%;
+    top: 483px;
+
+    background: #03A9F5;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.button_admin_ta3
+{
+    position: absolute;
+    width: 311.25px;
+    height: 183.52px;
+    left: 66%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #FEC18A;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.orange_color_bar3
+{
+    position: absolute;
+    width: 311.25px;
+    height: 20px;
+    left: 66%;
+    top: 483px;
+
+    background: #FEC18A;
+    border: 1px solid #FEC18A;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+
+
+.button_rate_ta4
+{
+    position: absolute;
+    width: 250px;
+    height: 183.52px;
+    left: 4%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+/* .button_manage_ta4
+{
+    position: absolute;
+    width: 300x;
+    height: 183.52px;
+    left: 51%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+} */
+
+.green_color_bar4
+{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 4%;
+    top: 483px;
+
+    background: #01A768;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.button_manage_ta4
+{
+    position: absolute;
+    width: 250px;
+    height: 183.52px;
+    left: 28%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.blue_color_bar4
+{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 28%;
+    top: 483px;
+
+    background: #03A9F5;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.button_admin_ta4
+{
+    position: absolute;
+    width: 250px;
+    height: 183.52px;
+    left: 52%;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 1px solid #FEC18A;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.orange_color_bar4
+{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 52%;
+    top: 483px;
+
+    background: #FEC18A;
+    border: 1px solid #FEC18A;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.button_system_ta4
+{
+    position: absolute;
+    width: 250px;
+    height: 183.52px;
+    left: 75%;
+    top: 300px;
+
+    background: white;
+    border: 1px solid #FED600;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.yellow_color_bar4
+{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 75%;
+    top: 483px;
+
+    background: #FED600;
+    border: 1px solid #FED600;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;
+}
+
+*
+{
+    box-sizing: border-box;
+}

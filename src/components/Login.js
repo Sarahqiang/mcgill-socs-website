@@ -1,8 +1,14 @@
 import React from "react";
 import { Form,Button,Card, Container } from "react-bootstrap";
 import {useRef} from "react"
+<<<<<<< HEAD
 import  Image  from "/Users/yaoqiangwu/Desktop/mcgill-socs-website/src/martlet3_single-noback.png";
 export default function Signup(){
+=======
+import  Image  from "C:/Users/TYS/Documents/study/University/COMP307/final project22222/mcgill-socs-website/src/martlet3_single-noback.png";
+export default function Signup()
+{
+>>>>>>> 97c7ba59abc73ec881f2dbe3f6000a13660e6565
 
     const usernameRef = useRef()
     const passwordRef = useRef()
@@ -49,3 +55,7 @@ export default function Signup(){
     )
 
 }
+
+
+
+
