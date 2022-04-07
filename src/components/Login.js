@@ -1,7 +1,7 @@
 import React from "react";
 import { Form,Button,Card, Container } from "react-bootstrap";
 import {useRef} from "react"
-import  Image  from "/Users/linda/Desktop/comp307finalproject/src/martlet3_single-noback.png";
+import  Image  from "/Users/yaoqiangwu/Desktop/mcgill-socs-website/src/martlet3_single-noback.png";
 export default function Signup(){
 
     const usernameRef = useRef()
