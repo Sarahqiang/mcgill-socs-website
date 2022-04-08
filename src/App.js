@@ -5,13 +5,13 @@ import Dashboard_professor from './components/Dashboard_professor.js';
 import Dashboard_admin from './components/Dashboard_admin.js';
 import Dashboard_system from './components/Dashboard_system.js';
 import React, { Component }  from 'react';
-import rateTa from './components/rateta.js';
+import Rateta from './components/Rateta';
 
 function App() {
   return(
-    <div>
-    <rateTa/>
-    </div>
+    
+    <Rateta/>
+    
 
   )
   
