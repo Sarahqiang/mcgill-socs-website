@@ -10,6 +10,7 @@ export default function Registration(){
     const studentidRef = useRef()
     const usernameRef = useRef()
     const passwordRef = useRef()
+    const coursesRef = useRef()
 
    
     return (
@@ -53,6 +54,10 @@ export default function Registration(){
                 <Form.Group id='password'>
                     <Form.Label>Password</Form.Label>
                     <Form.Control type='password' placeholder='Enter password' ref={passwordRef} required/>
+                </Form.Group>
+                <Form.Group id='coursesregisteredin'>
+                    <Form.Label>Courses Registered In (Select all that apply)</Form.Label>
+                    <Form.Control type='text' ref={coursesRef} required/>
                 </Form.Group>
                 
             </Form>
