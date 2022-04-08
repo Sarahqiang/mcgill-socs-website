@@ -44,9 +44,9 @@ export default function rateTa()
                        <Form.Label>SELECT A TA</Form.Label>
                         <Form.Select aria-label="Default select example">
                          <option></option>
-                         <option value="1">Linda Tang</option>
-                         <option value="2">Yaoqiang Wu</option>
-                         <option value="3">Yusen Tang</option>
+                         <option value="Linda Tang">Linda Tang</option>
+                         <option value="Yaoqiang Wu">Yaoqiang Wu</option>
+                         <option value="Yusen Tang">Yusen Tang</option>
                         </Form.Select>
                        </Form.Group>
                        <Form.Group id='RATING'>
