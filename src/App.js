@@ -7,15 +7,23 @@ import Dashboard_system from './components/Dashboard_system.js';
 import React, { Component }  from 'react';
 import Rateta from './components/Rateta';
 import { BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
+import Signup from './components/Signup';
+import { AuthProvider } from "/Users/yaoqiangwu/Desktop/mcgill-socs-website/src/contexts/AuthContext.js"
+
 function App() {
   return(
-    
-   <Router>
-     <Routes>
-       <Route path="/Login" element={<Login/>} />
-       <Route path='/Rateta' element={<Rateta/>} />
-    </Routes>
-   </Router>
+    <AuthProvider>
+      <Signup />
+    </AuthProvider>
+  //  <Router>
+  //    <Routes>
+  //      <Route path="/Login" element={<Login/>} />
+  //      <Route path='/Rateta' element={<Rateta/>} />
+  //      <Route path='/Registration' element={<Registration/>} />
+
+
+  //   </Routes>
+  //  </Router>
     
 
   )
