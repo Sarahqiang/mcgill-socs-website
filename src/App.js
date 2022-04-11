@@ -12,9 +12,18 @@ import { AuthProvider } from "/Users/yaoqiangwu/Desktop/mcgill-socs-website/src/
 
 function App() {
   return(
-    <AuthProvider>
-      <Signup />
-    </AuthProvider>
+    <Router>
+      <AuthProvider>
+        <Routes>
+          <Route exact path="/" element={<Rateta/>}  />
+          <Route path='/Signup' element={<Signup/>} />
+          <Route path="/Login" element={<Login/>} />
+
+
+        </Routes>
+        
+      </AuthProvider>
+    </Router>
   //  <Router>
   //    <Routes>
   //      <Route path="/Login" element={<Login/>} />
