@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office hour && Responsibility</title>
+</head>
+<style type="text/css">
+    .title
+        {
+            position: absolute;
+            left: 15%;
+            top: 27%;
+    
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 5vw;
+            line-height: 24px;
+            /* or 38% */
+    
+    
+            color: #1D242E;
+        }
+        .sub_title
+        {
+            position: absolute;
+            left: 40%;
+            /* right: 37.12%; */
+            top: 35%;
+            bottom: 68.55%;
+    
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5vw;
+            line-height: 48px;
+    
+            color: #1D242E;
+        }
+        .log_out
+        {
+            position: absolute;
+            width: 150px;
+            height: 24px;
+            left: 87%;
+            top: 95%;
+    
+            background: #4B72C2;
+            border: 2px solid #25A9F3;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+        }
+        #table1
+        {
+            position: absolute;
+            width: 20vw;
+            height: 3vw;
+            left: 37%;
+            top: 43%;
+
+            border: 0px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #form_course
+        {
+            /* position: absolute;
+            width: 20vw;
+            height: 3vw;
+            left: 37%;
+            top: 29%; */
+            width: 20vw;
+            height: 3vw;
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #form_term
+        {
+            /* position: absolute;
+            width: 20vw;
+            height: 3vw;
+            left: 37%;
+            top: 29%; */
+
+            width: 20vw;
+            height: 3vw;
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #Submit
+        {
+            position: absolute;
+            width: 20vw;
+            height: 4vw;
+            left: 40%;
+            top: 75%;
+
+            background: #4B72C2;
+            border: 2px solid #25A9F3;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+        }
+</style>
+
+<div>
+    <span class="title">Office Hour & Responsibility</span>
+    <span class="sub_title">Please enter the following</span>
+    <form action="Office_hour&responsibility.php" method="post">
+    <table id="table1" >
+        <tr>
+            <td><p style="left: 70%; top: 35%;">OFFICE HOURS :</p></td>
+            <td><input type="text" id="form_course" name="Office_hour" required="required";></td>
+        </tr> <tr>
+        <tr> <td><p style="left: 70%; top: 35%;">LOCATION :</p> </td>
+            <td><input type="text" id="form_term" name="location" required="required"></td>
+        </tr> <tr>
+        <tr> <td><p style="left: 70%; top: 35%;">RESPONSIBILITY:</p> </td>
+            <td><input type="text" id="form_term" name="responsibility" required="required"></td>
+        </tr> <tr>
+    </table>
+    <input type="submit" id="Submit" name="Submit" value="Submit" onclick="end()">
+    </form>
+</div>
+<div>
+    <button type = "button" class="log_out" onclick="return_to_dashboard()">
+        return main menu
+    </button>
+</div>
+
+<script>
+    function return_to_dashboard()
+{
+    window.location.replace("dashboard_ta_management.html")
+}
+function end()
+{
+    window.close()
+    window.location.replace("end2.html")
+}
+</script>
+
+
+<body>
+    
+</body>
+</html>

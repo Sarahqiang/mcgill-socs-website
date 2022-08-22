@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Course</title>
+</head>
+<style type="text/css">
+.title
+    {
+        position: absolute;
+        width: 675px;
+        height: 81px;
+        left: 33%;
+        top: 27%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5vw;
+        line-height: 24px;
+        /* or 38% */
+
+
+        color: #1D242E;
+    }
+    .sub_title
+    {
+        position: absolute;
+        left: 33%;
+        /* right: 37.12%; */
+        top: 35%;
+        bottom: 68.55%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        line-height: 48px;
+
+        color: #1D242E;
+    }
+    .log_out
+    {
+        position: absolute;
+        width: 150px;
+        height: 24px;
+        left: 87%;
+        top: 95%;
+
+        background: #4B72C2;
+        border: 2px solid #25A9F3;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+    }
+    .continue
+    {
+        position: absolute;
+        width: 20vw;
+        height: 2vw;
+        left: 41%;
+        top: 85%;
+
+        background: #4B72C2;
+        border: 2px solid #25A9F3;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+    }
+    .comment
+    {
+        position: absolute;
+            left: 41%;
+            /* right: 37.12%; */
+            top: 58%;
+            /* bottom: 68.55%; */
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.18vw;
+            line-height: 48px;
+            text-align: center;
+
+            color: #003786;
+    }
+    .Select_TA
+        {
+            position: absolute;
+            left: 41%;
+            /* right: 37.12%; */
+            top: 44%;
+            /* bottom: 68.55%; */
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.18vw;
+            line-height: 48px;
+            text-align: center;
+
+            color: #003786;
+        }
+    #SelectForm
+        {
+            position: absolute;
+            width: 20vw;
+            height: 3vw;
+            left: 41%;
+            /* right: 37.12%; */
+            top: 53%;
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #comment_form
+        {
+            position: absolute;
+            width: 20vw;
+            height: 8vw;
+            left: 41%;
+            top: 67%;
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #Submit
+        {
+            position: absolute;
+            width: 21vw;
+            height: 24px;
+            left: 40.5%;
+            top: 85%;
+
+            background: #4B72C2;
+            border: 2px solid #25A9F3;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+        }
+</style>
+<body>
+    <div>
+        <span class="title">Select Course</span>
+        <span class="sub_title">Specify which course you want to interact with</span>
+    </div>
+    <form action="performance.php" method="post">
+    <div>
+        <div> <p class="Select_TA">Select a TA:</p></div>
+        <select name="Book" id="SelectForm">
+            <option>wyq</option>
+            <option>tys</option>
+            <option>ty</option>
+            <!-- <input type="text" id="SelectForm" name="select" required="required"> -->
+        </select>
+    </div>
+    <div>
+        <div> <p class="comment">Comment :</p></div>
+        <div>
+            <input type="text" id="comment_form" name="comment" required="required">
+        </div>
+    </div>
+    <div>
+        <input type="submit" id="Submit" name="Submit" value="Submit" onclick="end()">
+    </div>
+    </form>
+    <div>
+        <button type = "button" class="log_out" onclick="return_to_dashboard()">
+            return main menu
+        </button>
+    </div>
+    <script>
+        function continue_button()
+        {
+            window.location.replace("logged out.html")
+        }
+        function return_to_dashboard()
+        {
+            window.location.replace("dashboard_ta_management.html")
+        }
+        function end()
+        {
+            window.close()
+            window.location.replace("end2.html")
+        }
+    </script>
+</body>
+</html>

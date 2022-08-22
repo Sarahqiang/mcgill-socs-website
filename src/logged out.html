@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <title>logged out</title>
+  <style type="text/css">
+    .logged_out_button
+  {
+      /* position: absolute; */
+      width: 500px;
+      height: 160px;
+      left: 448px;
+      /*top: 689px; */
+
+      border: 3px solid #003786;
+      box-sizing: border-box;
+      border-radius: 4px;
+      background-color: white;
+  }
+  </style>
+  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+</head>
+
+<body>
+
+<table border="0" style="width: 100%">
+  <caption></caption>
+  <col />
+  <col />
+  <col />
+  <tbody>
+    <tr height="100">
+      <td rowspan="4"></td>
+      <td></td>
+      <td rowspan="4"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center;margin-left:auto;margin-right:auto;"><img
+        alt="mcgill" src="bird.png" width="120" height="90"
+      /></td>
+    </tr>
+    <tr>
+      <td style="text-align:center;margin-left:auto;margin-right:auto;"><h1>You
+        are logged out</h1>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center;margin-left:auto;margin-right:auto;">
+        <button type="button" class="logged_out_button" onclick="login()">
+        <h2>LOG BACK AGAIN</h2>
+      </button>
+    </td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+  function login()
+  {
+      window.location.replace("index.php")
+  }
+
+</script>
+</body>
+</html>

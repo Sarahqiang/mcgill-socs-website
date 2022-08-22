@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard_rate_TA</title>
+</head>
+<style type="text/css">
+    .title
+    {
+        position: absolute;
+        /* width: 368vw;
+        height: 81vw; */
+        left: 36%;
+        top: 27%;
+        /* text-align:center;
+        margin-left:auto;
+        margin-right:auto; */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5.5vw;
+        line-height: 24px;
+
+        color: #1D242E;
+    }
+    .sub_title
+    {
+        position: absolute;
+        left: 39%;
+        right: 37.12%;
+        top: 35%;
+        bottom: 68.55%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        line-height: 48px;
+
+        color: #1D242E;
+    }
+    .log_out
+    {
+        position: absolute;
+        width: 10vw;
+        height: 1.6vw;
+        left: 90%;
+        top: 95%;
+
+        background: #4B72C2;
+        border: 2px solid #25A9F3;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+    }
+
+  .button_rate_ta4
+{
+    position: absolute;
+    width: 24.3vw;
+    height: 14.38vw;
+    left: 37%;
+    top: 50%;
+
+    background: #FFFFFF;
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+.button_manage_ta4
+{
+    position: absolute;
+    width: 250px;
+    height: 183.52px;
+    left: 28%;
+    top: 50%;
+
+    background: #FFFFFF;
+    border: 1px solid #03A9F5;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+.button_admin_ta4
+{
+    position: absolute;
+    width: 250px;
+    height: 183.52px;
+    left: 52%;
+    top: 50%;
+
+    background: #FFFFFF;
+    border: 1px solid #FEC18A;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+.button_system_ta4
+{
+    position: absolute;
+    width: 250px;
+    height: 183.52px;
+    left: 75%;
+    top: 50%;
+
+    background: white;
+    border: 1px solid #FED600;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+}
+  #color_chunk
+  {
+    position: absolute;
+    width: 24.3vw;
+    height: 2vw;
+    left: 37%;
+    top: 80%;
+
+    background: rgba(1, 167, 104, 0.3);
+    border: 1px solid #01A768;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+  }
+</style>
+<body>
+    <div>
+        <span class="title">Dashboard</span>
+        <span class="sub_title">Select one of the following</span>
+        <button type="button" class="button_rate_ta4" onclick="rate_a_ta()">
+            <h2>Rate my TA</h2>
+          </button>
+    </div>
+    
+    <div>
+        <button type = "button" class="log_out" onclick="logged_out()">
+            <span style="font-size: 1vw;">Log out<span>
+        </button>
+    </div>
+    <script>
+        function logged_out()
+        {
+            window.location.replace("logged out.html")
+        }
+        function rate_a_ta()
+        {
+            window.location.replace("rate_a_ta.html")
+        }
+    </script>
+</body>
+</html>
