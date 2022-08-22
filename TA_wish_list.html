@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA wish list</title>
+</head>
+<style type="text/css">
+    .title
+        {
+            position: absolute;
+            left: 35%;
+            top: 10%;
+    
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 5vw;
+            line-height: 24vw;
+            /* or 38% */
+    
+    
+            color: #1D242E;
+        }
+        .sub_title
+        {
+            position: absolute;
+            left: 37%;
+            /* right: 37.12%; */
+            top: 35%;
+            bottom: 68.55%;
+    
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5vw;
+            line-height: 48vw;
+    
+            color: #1D242E;
+        }
+        .log_out
+        {
+            position: absolute;
+            width: 150px;
+            height: 24px;
+            left: 87%;
+            top: 95%;
+    
+            background: #4B72C2;
+            border: 2px solid #25A9F3;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+        }
+        .Select_TA
+        {
+            position: absolute;
+            left: 41%;
+            /* right: 37.12%; */
+            top: 44%;
+            /* bottom: 68.55%; */
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.18vw;
+            line-height: 48px;
+            text-align: center;
+
+            color: #003786;
+        }
+        #SelectForm
+        {
+            position: absolute;
+            width: 20vw;
+            height: 3vw;
+            left: 40%;
+            /* right: 37.12%; */
+            top: 53%;
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #Submit
+        {
+            position: absolute;
+            width: 20vw;
+            height: 24px;
+            left: 40%;
+            top: 60%;
+
+            background: #4B72C2;
+            border: 2px solid #25A9F3;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+        }
+    </style>
+<body>
+    <div>
+        <span class="title">TA wish list</span>
+        <span class="sub_title">Please select one of the following</span>
+    </div>
+    <div>
+        <div> <p class="Select_TA">Select a TA:</p></div>
+        <select name="Book" id="SelectForm">
+            <option>wyq</option>
+            <option>tys</option>
+            <option>ty</option>
+        </select>
+        <!-- <input type="text" id="SelectForm" name="select" required="required"> -->
+    </div>
+    <input type="submit" id="Submit" name="Submit" value="Submit" onclick="end()">
+    <div>
+        <button type = "button" class="log_out" onclick="return_to_dashboard()">
+            return main menu
+        </button>
+    </div>
+    <script>
+        function return_to_dashboard()
+        {
+            window.location.replace("dashboard_ta_management.html")
+        }
+        function end()
+        {
+            window.close()
+            window.location.replace("end2.html")
+        }
+
+
+    </script>
+</body>
+</html>

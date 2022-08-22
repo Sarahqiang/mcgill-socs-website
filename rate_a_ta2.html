@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate a Ta</title>
+    <style>
+        .title
+        {
+            position: absolute;
+            /* width: 368px;
+            height: 81px; */
+            left: 36%;
+            top: 2%;
+            /* text-align:center;
+            margin-left:auto;
+            margin-right:auto; */
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.8vw;
+            line-height: 24px;
+
+        color: #1D242E;
+
+        }
+        .sub_title
+    {
+        position: absolute;
+        left: 37%;
+        right: 37.12%;
+        top: 15%;
+        bottom: 68.55%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 48px;
+
+        color: #1D242E;
+    }
+        .normal
+        {
+            position: absolute;
+            width: 217px;
+            height: 30px;
+            left: 694px;
+            top: 207px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24vw;
+            line-height: 20px;
+            /* or 83% */
+
+            text-align: center;
+            text-transform: uppercase;
+
+
+        }
+        #table1
+        {
+            position: absolute;
+            width: 20vw;
+            height: 3vw;
+            left: 37%;
+            top: 29%;
+
+            border: 0px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #form_course
+        {
+            /* position: absolute;
+            width: 20vw;
+            height: 3vw;
+            left: 37%;
+            top: 29%; */
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #form_term
+        {
+            /* position: absolute;
+            width: 20vw;
+            height: 3vw;
+            left: 37%;
+            top: 29%; */
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        .Select_TA
+        {
+            position: absolute;
+            left: 37%;
+            /* right: 37.12%; */
+            top: 43%;
+            /* bottom: 68.55%; */
+            
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.18vw;
+            line-height: 48px;
+        }
+        #SelectForm
+        {
+            position: absolute;
+            left: 37%;
+            /* right: 37.12%; */
+            top: 53%;
+            width: 20vw;
+            height: 3vw;
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        .rating
+        {
+            position: absolute;
+            left: 37%;
+            /* right: 37.12%; */
+            top: 54%;
+            /* bottom: 68.55%; */
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.4vw;
+            line-height: 48px;
+            
+        }
+        #rating_form
+        {
+            border: 0px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #table2
+        {
+            position: absolute;
+            width: 100px;
+            height: 30px;
+            left: 34%;
+            top: 60%;
+
+            border: 0px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #comment_form
+        {
+            position: absolute;
+            width: 20vw;
+            height: 8vw;
+            left: 0%;
+            top: 100%;
+
+            border: 2px solid #003786;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        #Submit
+        {
+            position: absolute;
+            width: 21vw;
+            height: 24px;
+            left: 36.5%;
+            top: 93%;
+
+            background: #4B72C2;
+            border: 2px solid #25A9F3;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+        }
+        .log_out
+        {
+            position: absolute;
+            width: 150px;
+            height: 24px;
+            left: 87%;
+            top: 95%;
+    
+            background: #4B72C2;
+            border: 2px solid #25A9F3;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content" align="left">
+        <div class="title"> <h1>Rate a TA</h1> </div>
+        <div> <p class="sub_title">Please enter the following</p></div>
+        <div class="middle">
+        <form action="rate_a_ta.php" method="post">
+                <table id="table1">
+                    <tr>
+                        <td><p style="left: 70%; top: 35%;">course: </p></td>
+                        <td><input type="text" id="form_course" name="course" required="required";></td>
+                    </tr> <tr>
+                    <tr> <td>term: </td>
+                        <td><input type="text" id="form_term" name="term" required="required"></td>
+                    </tr> <tr>
+                </table>
+            </div>
+            <div> <p class="Select_TA">Enter a TA :</p></div>
+            <div>
+                <div >
+                    <select name="select" id="SelectForm">
+                        <option>wyq</option>
+                        <option>tys</option>
+                        <option>ty</option>
+                    </select>
+                    <!-- <td><input type="text" id="SelectForm" name="select" required="required"></td> -->
+                </div>
+            </div>
+            <!-- <div> <p class="rating">rating : </p></div> -->
+            <div id="table2">
+                <table border="0" id="table2">
+                    <!-- <tr>
+                        <td>rating: </td>
+                    <td> 
+                        <td><input type="text" id="form_course" name="course" required="required";></td>
+                    </td> -->
+                    <tr>
+                        <td>rating: </td>
+                        <td><input type="text" id="form_course" name="rating" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td>comment: </td>
+                        <!-- <td><input type="text" id="term" name="term" required="required"></td> -->
+                    </tr>  
+                    <tr>
+                    </tr> 
+                    </td> </tr> <tr> <td colspan="2" align="left">
+                        <input type="text" id="comment_form" name="comment" required="required">
+                </table>
+            </div>
+            <input type="submit" id="Submit" name="Submit" value="Submit" onclick="end()">
+            <div>
+                <button type = "button" class="log_out" onclick="return_to_dashboard()">
+                    return main menu
+                </button>
+            </div>
+        </form>
+
+        <script>
+            function return_to_dashboard()
+        {
+            window.location.replace("dashborad_prof.html")
+        }
+        function end()
+        {
+            window.close()
+            window.open("end2.html")
+        }
+        </script>
+</body>
+</html>
